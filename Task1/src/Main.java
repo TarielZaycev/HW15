@@ -5,5 +5,10 @@ public class Main {
     // Коды даны для примера и не соответствуют действительности. Учитывайте, что нужно распечатать коды букв в двух регистрах!
     public static void main(String[] args) {
         //todo код писать тут
+        String input = "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя";
+
+        for (int i = 0; i < input.length(); i++) {
+            System.out.println(input.charAt(i) + "-" + (int) input.charAt(i));
+        }
     }
 }
